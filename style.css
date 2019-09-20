@@ -8,10 +8,12 @@ h1 {
     color: white;   
     background-color: #ff8fa5;
 }
-
- a:link{
+a:link{
     color: #c25067;
 }
 a:visited{
     color: #682a37;
+}
+ul {
+    list-style: none;
 }
