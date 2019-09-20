@@ -17,3 +17,17 @@ a:visited{
 ul {
     list-style: none;
 }
+.box {
+    border: double #ff8fa5 5px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 2%;
+    margin: 5%;
+    text-align: center;
+    transition: all 0.3s;
+}
+.box:hover{
+    background-color: whitesmoke;
+    box-shadow: 2px 6px 8px 2px gray;
+    transform: translate(0px, -5px);
+}
