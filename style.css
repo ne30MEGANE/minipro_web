@@ -26,6 +26,19 @@ ul {
     text-align: center;
     transition: all 0.3s;
 }
+.box a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+.box img{
+    border: solid #586a66 2px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 3%;
+}
 .box:hover{
     background-color: white;
     box-shadow: 2px 6px 8px 2px gray;
