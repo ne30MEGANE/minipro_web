@@ -8,15 +8,7 @@ h1 {
     color: white;   
     background-color: #ff8fa5;
 }
-a:link{
-    color: #c25067;
-}
-a:visited{
-    color: #682a37;
-}
-ul {
-    list-style: none;
-}
+
 .box {
     border: double #ff8fa5 5px;
     border-radius: 15px;
