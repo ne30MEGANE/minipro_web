@@ -1,20 +1,5 @@
-body,
-#wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-footer {
-    margin-top: auto;
-}
-
-#contents {
-    flex-flow: column wrap;
-}
-
 body {
-    margin: 0 15%;
+    margin: 0 10%;
     text-align: center;
     background-color: #edeff1;
     color: #586a66;
@@ -23,6 +8,17 @@ body {
 h1 {
     color: white;
     background-color: #ff8fa5;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+
+/* コンテンツ表示用ボックス */
+
+.works {
+    float: left;
 }
 
 .box {
@@ -40,7 +36,7 @@ h1 {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 .box img {
