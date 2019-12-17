@@ -6,12 +6,13 @@ body {
 }
 
 .container {
-    margin: 3% 10%;
+    /* margin: 3% 10%; */
 }
 
 h1 {
     color: #eb607b;
     border-bottom: dotted #ff8fa5 5px;
+    margin: 3% 10%;
 }
 
 footer {
