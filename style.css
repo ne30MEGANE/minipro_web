@@ -1,12 +1,21 @@
+html {
+    background-color: white;
+}
+
 body {
     text-align: center;
     background-color: #edeff1;
     color: #586a66;
     font-size: 20pt;
+    margin: 10px;
+    border: solid 1px gray;
+    box-shadow: 5px 5px 5px 0 lightgray;
 }
 
 .container {
     margin: 3% 6%;
+    display: flex;
+    flex-flow: column;
 }
 
 h1 {
