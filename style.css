@@ -6,7 +6,7 @@ body {
     text-align: center;
     background-color: rgb(252, 245, 252);
     color: #586a66;
-    font-size: 20pt;
+    font-size: 16pt;
     margin: 10px;
     border: solid 1px gray;
     box-shadow: 5px 5px 5px 0 lightgray;
@@ -31,7 +31,7 @@ footer {
     margin-top: auto;
     text-align: center;
     color: #ff8fa5;
-    padding-top: 20px;
+    padding-top: 14px;
 }
 
 footer img {
@@ -69,8 +69,8 @@ footer a {
     border: double #ff8fa5 5px;
     border-radius: 15px;
     background-color: whitesmoke;
-    padding: 2%;
-    margin: 2%;
+    padding: 1%;
+    margin: 1%;
     width: 400px;
     /* height: auto; */
     text-align: center;
@@ -80,7 +80,7 @@ footer a {
 .box a {
     text-decoration: none;
     color: #586a66;
-    font-size: 18pt;
+    font-size: 15pt;
 }
 
 .box img {
@@ -108,7 +108,7 @@ footer a {
     color: white;
     box-shadow: 0px 0px 0px 5px #ff8fa5;
     padding: 7px 14px;
-    font-size: 14pt;
+    font-size: 18pt;
     margin: 10px;
     transition: all 0.3s;
 }
