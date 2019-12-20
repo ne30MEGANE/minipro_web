@@ -8,7 +8,7 @@ body {
     color: #586a66;
     font-size: 16pt;
     margin: 10px;
-    border: solid 1px gray;
+    /* border: solid 1px gray; */
     box-shadow: 5px 5px 5px 0 lightgray;
     display: flex;
     flex-flow: column;
