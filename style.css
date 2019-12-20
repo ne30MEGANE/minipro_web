@@ -1,21 +1,24 @@
 html {
-    background-color: white;
+    background-color: #edeff1;
 }
 
 body {
     text-align: center;
-    background-color: #edeff1;
+    background-color: rgb(252, 245, 252);
     color: #586a66;
     font-size: 20pt;
     margin: 10px;
     border: solid 1px gray;
     box-shadow: 5px 5px 5px 0 lightgray;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .container {
     margin: 3% 6%;
-    display: flex;
-    flex-flow: column;
+    flex: 1;
 }
 
 h1 {
@@ -25,6 +28,7 @@ h1 {
 }
 
 footer {
+    margin-top: auto;
     text-align: center;
     color: #ff8fa5;
     padding-top: 20px;
