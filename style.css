@@ -21,6 +21,21 @@ body {
     flex: 1;
 }
 
+.IllustTop {
+    margin: 0 10%;
+    display: flex;
+    flex-flow: row;
+}
+
+.IllustTop img {
+    height: 700px;
+}
+
+.IllustTop p {
+    margin: 5%;
+    text-align: left;
+}
+
 h1 {
     color: #eb607b;
     border-bottom: dotted #ff8fa5 5px;
