@@ -25,6 +25,7 @@ body {
     margin: 0 10%;
     display: flex;
     flex-flow: row;
+    align-items: center;
 }
 
 .IllustTop img {
