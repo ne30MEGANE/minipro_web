@@ -4,7 +4,7 @@ html {
 
 body {
     text-align: center;
-    background-color: rgb(252, 245, 252);
+    background-color: #fef4fd;
     color: #586a66;
     font-size: 16pt;
     margin: 10px;
@@ -149,6 +149,31 @@ footer a {
     transform: translate(0px, -5px);
 }
 
+.charts {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.chartlist {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.chartlist h2 {
+    flex-basis: 75%;
+    margin: 1%;
+    border: none;
+}
+
+.chart_links {
+    flex-basis: 25%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 /* ボタン要素 */
 
@@ -191,6 +216,79 @@ footer a {
     border-color: #fdafbf;
     color: #fca1b3;
     cursor: pointer;
+}
+
+.chart_detail {
+    text-decoration: none;
+    border-bottom: 10px double #586a66;
+}
+
+.chart_detail_border a,
+.chart_detail_border a:visited {
+    color: #586aaa;
+}
+
+.chart_detail_border {
+    position: relative;
+    border: 3px solid #586a66;
+    border-radius: 4px;
+    padding: 13px 6px;
+    background-color: white;
+}
+
+.chart_detail_border::before {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    content: '';
+    border-top: #fef4fd 15px solid;
+    border-left: #586a66 15px solid;
+    z-index: 2;
+}
+
+.chart_detail_border::after {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    content: '';
+    width: 0;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #fef4fd #fef4fd #586a66 #586a66;
+}
+
+.chart_movie {
+    text-decoration: none;
+    background-color: grey;
+    border: solid 3px #586a66;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 3px white inset;
+    padding: 12px 7px;
+}
+
+.chart_movie_border a,
+.chart_movie_border a:visited {
+    color: #ff8a86;
+}
+
+.chart_movie::after {
+    content: '▶︎';
+    color: white;
+}
+
+.chart_movie_border {
+    position: relative;
+    height: auto;
+    margin: auto;
+}
+
+.movie_border {
+    position: absolute;
+    width: 80%;
+    bottom: -17px;
+    border: solid 2px #586a66;
+    border-radius: 3px;
+    margin: 0 12% 0 8%;
 }
 
 
