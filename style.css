@@ -249,6 +249,7 @@ footer a {
 
 .chart_detail_border {
     position: relative;
+    min-width: 43px;
     border: 3px solid #586a66;
     border-radius: 4px;
     padding: 13px 6px;
@@ -312,7 +313,8 @@ footer a {
 .chart_movie_border {
     position: relative;
     height: auto;
-    margin: auto;
+    margin: auto 0;
+    min-width: 85px;
 }
 
 .movie_border {
