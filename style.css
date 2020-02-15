@@ -1,5 +1,6 @@
 html {
     background-color: #edeff1;
+    font-family: sans-serif;
 }
 
 body {
@@ -46,6 +47,29 @@ h1 {
 h2 {
     border-bottom: #c25067 double 9px;
     margin: 3% 10%;
+}
+
+h3 {
+    display: inline-block;
+    position: relative;
+    background-color: #c25067;
+    border-radius: 2px;
+    font-size: 18px;
+    color: white;
+    padding: 15px 40px 15px 15px;
+}
+
+h3::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-width: 30px 15px 30px 0px;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
 }
 
 footer {
@@ -193,6 +217,30 @@ footer a {
     align-items: center;
 }
 
+.chart_table {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.chart_table table {
+    flex-basis: 40%;
+}
+
+.chart_p {
+    border: dotted #c25067 9px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5%;
+    background-color: white;
+    float: left;
+    text-align: left;
+}
+
+.chart_p p {
+    padding: 10px;
+}
+
 
 /* ボタン要素 */
 
@@ -330,7 +378,7 @@ footer a {
 /* テーブル要素 */
 
 table {
-    margin: 0 13%;
+    margin: 0 5%;
 }
 
 th,
