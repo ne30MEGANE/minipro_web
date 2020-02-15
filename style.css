@@ -72,6 +72,13 @@ h3::after {
     border-style: solid;
 }
 
+
+/* 
+img {
+    border: #586a66 solid 3px;
+    border-radius: 4px;
+} */
+
 footer {
     margin-top: auto;
     text-align: center;
@@ -239,6 +246,11 @@ footer a {
 
 .chart_p p {
     padding: 10px;
+}
+
+.chart_p img {
+    border: solid #586a66 2px;
+    border-radius: 5px;
 }
 
 
